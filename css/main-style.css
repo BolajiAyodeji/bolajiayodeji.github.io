@@ -206,11 +206,11 @@
    .scroll-to-top {
        position: fixed;
        border-radius: 20px;
-       right: 37px;
+       right: 46px;
        bottom: 100px;
        display: none;
-       width: 40px;
-       height: 25px;
+       width: 30px;
+       height: 30px;
        text-align: center;
        color: white;
        background: rgba(52, 58, 64, 0.5);
