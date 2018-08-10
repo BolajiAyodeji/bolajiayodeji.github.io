@@ -348,7 +348,12 @@
        .top-nav-collapse .nav .section-btn a {
            color: #FFFFFF;
        }
-   }
+       .drop-list {
+          color: #000000;
+      }
+      .drop-list:hover {
+         color: #FA8072;
+      }
    /*---------------------------------------
       HOME              
   -----------------------------------------*/
