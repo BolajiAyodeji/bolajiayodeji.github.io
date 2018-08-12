@@ -867,140 +867,173 @@ footer {
    .social-icon li a:hover {
        color: #FA8072;
    }
-   /*---------------------------------------
+
+    /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
-   
-   @media screen and (max-width: 1170px) {
-       .custom-navbar .navbar-nav.navbar-nav-first {
-           margin-left: inherit;
-       }
-   }
-   
-   @media screen and (max-width: 991px) {
-       h3 {
-           font-size: 1.2em;
-       }
-       p {
-           font-size: 13px;
-       }
-       #home {
-           text-align: center;
-       }
-       .home-info {
-           margin-bottom: 3em;
-       }
-       .custom-navbar .nav li a {
-           font-size: 13px;
-           padding-right: 11px;
-           padding-left: 11px;
-       }
-       .custom-navbar .section-btn {
-           margin-left: 1em;
-       }
-       .blog-thumb {
-           height: inherit;
-       }
-       .blog-info {
-           padding: 45px 25px;
-       }
-       .media.blog-thumb .media-left {
-           display: block;
-           width: 100%;
-           padding-right: 0;
-           overflow: hidden;
-       }
-       .media.blog-thumb .media-left {
-           height: 250px;
-       }
-       .media.blog-thumb .media-left img {
-           position: relative;
-           bottom: 10em;
-       }
-       #work .work-thumb,
-       .footer-thumb {
-           margin-top: 20px;
-           margin-bottom: 30px;
-       }
-   }
-   
-   @media only screen and (min-width: 640px) and (max-width: 767px) {
-       #blog-header {
-           height: 100vh;
-       }
-       .media.blog-thumb .media-left {
-           height: 550px;
-       }
-       .media.blog-thumb .media-left img {
-           position: relative;
-           bottom: 10em;
-       }
-   }
-   
-   @media screen and (max-width: 767px) {
-       .custom-navbar {
-           background: #FFFFFF;
-           -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-           -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-           box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-           padding: 10px 0;
-       }
-       .custom-navbar .nav li a {
-           line-height: normal;
-           padding: 5px;
-       }
-       .custom-navbar .navbar-brand,
-       .top-nav-collapse .navbar-brand {
-           color: #252525;
-           font-weight: 600;
-       }
-       .custom-navbar .nav li a,
-       .top-nav-collapse .nav li a {
-           color: #575757;
-       }
-       .custom-navbar .navbar-nav.navbar-right li {
-           display: inline-block;
-       }
-       .custom-navbar .section-btn {
-           display: block !important;
-           width: 50%;
-           margin: 10px auto 10px auto;
-           padding: 10px;
-       }
-       .custom-navbar .section-btn a {
-           color: #FFFFFF !important;
-       }
-       .home-info span {
-           margin-top: 20px;
-       }
-       #about .about-info:first-child {
-           margin-right: 0;
-       }
-       .about-info {
-           margin: 40px 0 40px 0;
-       }
-       .google-map {
-           margin-top: 50px;
-       }
-       footer {
-           text-align: center;
-       }
-       .footer-info p,
-       .footer-bottom .phone-contact {
-           margin-right: 0;
-       }
-   }
-   
-   @media screen and (max-width: 639px) {
-       h1 {
-           font-size: 2em;
-       }
-       .media.blog-thumb .media-left {
-           height: 320px;
-       }
-       .media.blog-thumb .media-left img {
-           position: relative;
-           bottom: 6em;
-       }
-   }
 
+  @media screen and (max-width: 1170px) {
+
+    .custom-navbar .navbar-nav.navbar-nav-first {
+      margin-left: inherit;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+
+    h3 {
+      font-size: 1.2em;
+    }
+
+    p {
+      font-size: 13px;
+    }
+
+    #home {
+      text-align: center;
+    }
+
+    .home-info {
+      margin-bottom: 3em;
+    }
+
+    .custom-navbar .nav li a {
+      font-size: 13px;
+      padding-right: 11px;
+      padding-left: 11px;
+    }
+
+    .custom-navbar .section-btn {
+      margin-left: 1em;
+    }
+
+    .blog-thumb {
+      height: inherit;
+    }
+
+    .blog-info {
+      padding: 45px 25px;
+    }
+
+    .media.blog-thumb .media-left {
+      display: block;
+      width: 100%;
+      padding-right: 0;
+      overflow: hidden;
+    }
+
+    .media.blog-thumb .media-left {
+      height: 250px;
+    }
+
+    .media.blog-thumb .media-left img {
+      position: relative;
+      bottom: 10em;
+    }
+
+    #work .work-thumb,
+    .footer-thumb {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  }
+
+  @media only screen and (min-width: 640px) and (max-width: 767px) {
+
+    #blog-header {
+      height: 100vh;
+    }
+
+    .media.blog-thumb .media-left {
+      height: 550px;
+    }
+
+    .media.blog-thumb .media-left img {
+      position: relative;
+      bottom: 10em;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .custom-navbar {
+      background: #ffffff;
+      -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+    }
+
+    .custom-navbar .nav li a {
+      line-height: normal;
+      padding: 5px;
+    }
+
+    .custom-navbar .navbar-brand,
+    .top-nav-collapse .navbar-brand {
+      color: #252525;
+      font-weight: 600;
+    }
+
+    .custom-navbar .nav li a,
+    .top-nav-collapse .nav li a {
+      color: #575757;
+    }
+
+    .custom-navbar .navbar-nav.navbar-right li {
+      display: inline-block;
+    }
+
+    .custom-navbar .section-btn {
+      display: block !important;
+      width: 50%;
+      margin: 10px auto 10px auto;
+      padding: 10px;
+    }
+
+    .custom-navbar .section-btn a {
+      color: #ffffff !important;
+    }
+
+    .home-info span {
+      margin-top: 20px;
+    }
+
+    #about .about-info:first-child {
+      margin-right: 0;
+    }
+
+    .about-info {
+      margin: 40px 0 40px 0;
+    }
+
+    .google-map {
+      margin-top: 50px;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    .footer-info p,
+    .footer-bottom .phone-contact {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 639px) {
+
+    h1 {
+      font-size: 2em;
+    }
+
+    .media.blog-thumb .media-left {
+      height: 320px;
+    }
+
+    .media.blog-thumb .media-left img {
+      position: relative;
+      bottom: 6em;
+    }
+    
+  }
