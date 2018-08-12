@@ -87,12 +87,14 @@
    
    .section-title {
        margin-bottom: 60px;
+       text-align: center;
    }
    
    .section-title h2 {
        margin-top: 0;
        margin-bottom: 10px;
        line-height: 0;
+       text-align: center;
    }
    
    .section-title .line-bar {
