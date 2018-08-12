@@ -903,6 +903,7 @@ footer {
       font-size: 13px;
       padding-right: 11px;
       padding-left: 11px;
+      text-align: center;
     }
 
     .custom-navbar .section-btn {
@@ -969,6 +970,7 @@ footer {
     .custom-navbar .nav li a {
       line-height: normal;
       padding: 5px;
+      text-align: center;
     }
 
     .custom-navbar .navbar-brand,
