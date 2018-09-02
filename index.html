@@ -565,13 +565,14 @@
                 <div class="col-md-8 col-sm-8">
 
                     <!-- CONTACT FORM HERE -->
-                    <form id="contact-form" role="form" action="#" method="post">
+                    <form id="contact-form" action="https://formspree.io/sirbeejay1@gmail.com" method="POST">
+			<input type="hidden" name="_subject" value="Message to Bolaji Ayodeji" />
                         <div class="col-md-12 col-sm-12">
-                            <input type="text" class="form-control" placeholder="Full Name" id="cf-name" name="cf-name" required="">
+                            <input type="text" name="name" class="form-control" placeholder="Full Name" id="cf-name" required="required">
                         </div>
 
                         <div class="col-md-6 col-sm-6">
-                            <input type="email" class="form-control" placeholder="Your Email" id="cf-email" name="cf-email" required="">
+                            <input type="email" name="_replyto" class="form-control" placeholder="Your Email" id="cf-email" required="required">
                         </div>
 
                         <div class="col-md-6 col-sm-6">
@@ -583,7 +584,7 @@
                         </div>
 
                         <div class="col-md-4 col-sm-6">
-                            <input type="submit" class="form-control" name="submit" value="SEND MESSAGE">
+                            <input type="submit" class="form-control" name="submit" value="send">
                         </div>
                         <div class="col-md-2 col-sm-4">
                             <input type="reset" class="form-control" name="reset" value="CLEAR">
