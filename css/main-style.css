@@ -207,13 +207,14 @@
    
    .scroll-to-top {
        position: fixed;
-       border-radius: 20px;
+       border-radius: 15px;
        right: 46px;
        bottom: 100px;
        display: none;
-       width: 30px;
-       height: 30px;
-       text-align: center;
+       width: 50px;
+       height: 50px;
+       padding-top: 18px;
+       text-align: center!important;
        color: white;
        background: rgba(52, 58, 64, 0.5);
    }
@@ -226,8 +227,7 @@
    .scroll-to-top:hover {
        background: #343a40;
    }
-   
-   .scroll-to-top i {
+   .scroll-to-top i{
        font-weight: 800;
    }
    /*---------------------------------------
@@ -707,7 +707,7 @@
    }
    
    .google-map {
-       border-radius: 50%;
+       border-radius: 20px;
        width: 300px;
        height: 300px;
        overflow: hidden;
