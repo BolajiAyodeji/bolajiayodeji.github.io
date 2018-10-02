@@ -1,5 +1,4 @@
    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
-   @import url('https://fonts.googleapis.com/css?family=Unica+One');
    body {
        background: #FFFFFF;
        font-family: 'Poppins', sans-serif;
@@ -381,8 +380,6 @@
    
    #home h1 {
        color: #FFFFFF;
-       font-family: 'Unica One', cursive;
-       text-transform: uppercase;
    }
    
    .home-info .section-btn {
