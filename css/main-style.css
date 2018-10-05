@@ -165,7 +165,7 @@
        flex-flow: row nowrap;
        justify-content: center;
        align-items: center;
-       background: none repeat scroll 0 0 #FFFFFF;
+       background: none repeat scroll 0 0 #1dc8cd;
    }
    
    .spinner {
@@ -185,8 +185,8 @@
        margin-top: -10px;
        margin-left: -10px;
        border-radius: 50%;
-       border: 3px solid #FFF;
-       border-top-color: #1dc8cd;
+       border: 3px solid #1dc8cd;
+       border-top-color: #FFF;
        animation: spinner .9s linear infinite;
    }
    
