@@ -164,7 +164,8 @@
        display: flex;
        flex-flow: row nowrap;
        justify-content: center;
-       align-items: center;
+       align-items: center!important;
+       text-align: center!important;
        background: none repeat scroll 0 0 #1dc8cd;
    }
    
@@ -185,7 +186,7 @@
        margin-top: -10px;
        margin-left: -10px;
        border-radius: 50%;
-       border: 3px solid #1dc8cd;
+       border: 3px solid #FFF;
        border-top-color: #FFF;
        animation: spinner .9s linear infinite;
    }
