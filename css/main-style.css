@@ -185,8 +185,8 @@
        margin-top: -10px;
        margin-left: -10px;
        border-radius: 50%;
-       border: 3px solid #1dc8cd;
-       border-top-color: #FFFFFF;
+       border: 3px solid #FFF;
+       border-top-color: #1dc8cd;
        animation: spinner .9s linear infinite;
    }
    
