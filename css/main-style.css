@@ -101,7 +101,7 @@ a:hover, a:active, a:focus {
 .section-btn {
     background: #2dce89;
     border: 0;
-    border-radius: 8px; 
+    border-radius: 8px;
     color: #FFFFFF;
     cursor: pointer;
     font-size: inherit;
@@ -420,7 +420,8 @@ a:hover, a:active, a:focus {
 .about-info {
     margin-top: 60px;
 }
-.about-image{
+
+.about-image {
     border-radius: 100%;
 }
 
@@ -712,7 +713,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .section-title h2 {
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .google-map {
@@ -961,6 +962,7 @@ footer p, footer span, .footer-link li a {
     .custom-navbar .navbar-brand, .top-nav-collapse .navbar-brand {
         color: #252525;
         font-weight: 600;
+        margin-top: 15px;
         margin-left: 20px;
     }
     .custom-navbar .nav li a, .top-nav-collapse .nav li a {
