@@ -420,6 +420,9 @@ a:hover, a:active, a:focus {
 .about-info {
     margin-top: 60px;
 }
+.about-image{
+    border-radius: 100%;
+}
 
 .skill-thumb strong {
     display: inline-block;
