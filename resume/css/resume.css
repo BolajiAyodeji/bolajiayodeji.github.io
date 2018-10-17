@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed');
 body {
     font-family: 'Poppins', sans-serif;
     padding-top: 40px;
-    color: #868e96;
-    background-color: lightgoldenrodyellow;
+    color: #f9f9f9;
+    background-color: #11cdef;
 }
 
 @media (min-width:992px) {
@@ -14,13 +13,8 @@ body {
     }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     color: #343a40;
@@ -42,8 +36,9 @@ p {
 .subheading {
     text-transform: uppercase;
     font-weight: 500;
-    font-family: 'Saira Extra Condensed', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
+    color: #2dce89;
 }
 
 .list-social-icons a {
@@ -51,7 +46,7 @@ p {
 }
 
 .list-social-icons a:hover {
-    color: #1de099;
+    color: #2dce89;
 }
 
 .list-social-icons a .fa-lg {
@@ -63,7 +58,7 @@ p {
 }
 
 .list-icons .list-inline-item i:hover {
-    color: #1de099;
+    color: #2dce89;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -139,7 +134,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-    background-color: #1de099!important;
+    background-color: #2dce89!important;
 }
 
 .text-primary {
@@ -150,10 +145,8 @@ a {
     color: darkcyan;
 }
 
-a:active,
-a:focus,
-a:hover {
-    color: #1de099;
+a:active, a:focus, a:hover {
+    color: #2dce89;
     text-decoration: none;
 }
 
@@ -163,5 +156,5 @@ a:hover {
 }
 
 .text-big {
-    color: #1de099;
+    color: #2dce89;
 }
