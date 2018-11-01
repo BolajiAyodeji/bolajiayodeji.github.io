@@ -422,7 +422,7 @@ a:hover, a:active, a:focus {
 }
 
 .about-image {
-    border-radius: 10px;
+    border-radius: 10%;
 }
 
 .skill-thumb strong {
