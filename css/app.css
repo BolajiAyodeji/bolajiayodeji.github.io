@@ -722,7 +722,7 @@ a:focus {
     border: 0;
     border-radius: 8px;
     box-shadow: none;
-    color: #000;
+    color: #323232;
     font-size: 15px;
     font-weight: normal;
     margin-bottom: 15px;
@@ -730,7 +730,7 @@ a:focus {
 }
 
 #contact .form-control:focus {
-    box-shadow: 0 0 0 3.0px #e9ecef;
+    box-shadow: 0 0 0 3.0px #11cdef;
 }
 
 #contact input,
