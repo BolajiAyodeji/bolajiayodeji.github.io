@@ -46,7 +46,7 @@ h4 {
 }
 
 p {
-    color: #757575;
+    color: #4c4c4c;
     font-size: 14px;
     font-weight: normal;
     line-height: 25px;
@@ -74,7 +74,7 @@ strong {
 }
 
 a {
-    color: #000;
+    color: #323232;
     font-weight: normal;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -84,7 +84,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #323232;
+    color: #000;
     outline: none;
 }
 
@@ -873,6 +873,10 @@ footer span,
     font-weight: 500;
     display: inline-block;
     margin-left: 10px;
+}
+
+.certified {
+    width: 80%;
 }
 
 /*---------------------------------------
