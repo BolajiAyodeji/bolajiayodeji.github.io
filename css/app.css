@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+@import url("../css/hover-min.css");
+@import url("../css/bootstrap.min.css");
+@import url("../css/magnific-popup.css");
+@import url("../css/font-awesome.min.css");
+@import url("../assets/nucleo/css/nucleo.css");
 
 body {
     background: #FFFFFF;
@@ -126,7 +131,7 @@ a:focus {
     background: #2dce89;
     border: 0;
     border-radius: 8px;
-    color: #FFFFFF;
+    color: #ffffff;
     cursor: pointer;
     font-size: inherit;
     font-weight: normal;
@@ -144,7 +149,7 @@ a:focus {
     background: linear-gradient(to right, #2dce89, #11cdef);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-color: transparent;
-    color: #000;
+    color: #ffffff;
 }
 
 .overlay {
@@ -246,8 +251,6 @@ a:focus {
     background: linear-gradient(to right, #2dce89, #11cdef);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
-.custom-navbar .brand-log {}
 
 .top-nav-collapse {
     background: #e9ecef;
@@ -632,7 +635,7 @@ a:focus {
 }
 
 .link-btn:hover {
-    color: #000;
+    color: #FFFFFF;
     background: #2dce89;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2dce89, #11cdef);
@@ -990,7 +993,7 @@ footer span,
     .custom-navbar .navbar-brand,
     .top-nav-collapse .navbar-brand {
         color: #252525;
-        font-weight: 600;
+        font-weight: 400;
         margin-top: 15px;
         margin-left: 20px;
     }
