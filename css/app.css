@@ -464,7 +464,7 @@ a:focus {
     right: 0px;
     bottom: 0px;
     content: "";
-    background: #2dce89;
+    background: #eeeeee;
     opacity: 0;
     transition: 0.5s;
 }
@@ -479,13 +479,13 @@ a:focus {
     opacity: 0;
     display: block;
     transition: 0.5s 0.2s;
-    color: #FFFFFF;
+    color: #000;
     z-index: 2;
     position: relative;
 }
 
 .work-thumb .work-info small {
-    color: #d9d9d9;
+    color: #332233;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
