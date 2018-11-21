@@ -353,7 +353,7 @@ a:focus {
     position: relative;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
-    background: url('../images/DevImage.jpg') no-repeat center center;
+    background: url('../images/header-image.jpg') no-repeat center center;
     background-size: cover;
     vertical-align: middle;
     display: -webkit-box;
