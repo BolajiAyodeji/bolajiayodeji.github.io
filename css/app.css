@@ -168,41 +168,7 @@ a:focus {
     justify-content: center;
     align-items: center !important;
     text-align: center !important;
-    background: none repeat scroll 0 0 #11cdef;
-}
-
-.spinner {
-    border: 1px solid transparent;
-    border-radius: 3px;
-    position: relative;
-}
-
-.spinner:before {
-    content: '';
-    box-sizing: border-box;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 45px;
-    height: 45px;
-    margin-top: -10px;
-    margin-left: -10px;
-    border-radius: 50%;
-    border: 3px solid #FFFFFF;
-    border-top-color: #757575;
-    animation: spinner .9s linear infinite;
-}
-
-@-webkit-@keyframes spinner {
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes spinner {
-    to {
-        transform: rotate(360deg);
-    }
+    background: none repeat scroll 0 0 #ddd;
 }
 
 /*---------------------------------------
