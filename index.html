@@ -69,32 +69,24 @@
 
 <body>
 
-     <!-- PRE LOADER -->
-     <section class="preloader">
-            <img src="images/loader.gif" id="loader">
+    <!-- PRE LOADER -->
+    <section class="preloader">
+        <img src="images/loader.gif" id="loader">
     </section>
 
     <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="179898976244588"
-  theme_color="#2dce89"
-  logged_in_greeting="Hello there, How can I help you?"
-  logged_out_greeting="Hello there, How can I help you?">
-
-</div>
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="179898976244588" theme_color="#4c5c96">
+    </div>
 
     <!-- MENU -->
     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
@@ -409,11 +401,12 @@
                     <div class="media blog-thumb">
                         <div class="media-body blog-info">
                             <small><i class="fa fa-clock-o"></i> Nov 11, 2018</small>
-                            <h3><a href="https://medium.com/@bolajiayodeji/how-to-test-a-pull-request-locally-before-merging-634bb205d3a6" target="_blank">How to test a Pull Request locally before Merging.</a></h3>
+                            <h3><a href="https://medium.com/@bolajiayodeji/how-to-test-a-pull-request-locally-before-merging-634bb205d3a6"
+                                    target="_blank">How to test a Pull Request locally before Merging.</a></h3>
                             <p>In this tutorial, I would show you how to check, test and make changes to a pull request
                                 before merging.</p>
-                            <a href="https://medium.com/@bolajiayodeji/how-to-test-a-pull-request-locally-before-merging-634bb205d3a6" target="_blank"
-                                class="btn section-btn">Read
+                            <a href="https://medium.com/@bolajiayodeji/how-to-test-a-pull-request-locally-before-merging-634bb205d3a6"
+                                target="_blank" class="btn section-btn">Read
                                 article</a>
                         </div>
                     </div>
@@ -424,11 +417,12 @@
                     <div class="media blog-thumb">
                         <div class="media-body blog-info">
                             <small><i class="fa fa-clock-o"></i> Nov 8, 2018</small>
-                            <h3><a href="https://pwafire.org/developer/codelabs/build-pwa-with-github-pages-and-firebase-hosting/" target="_blank">How
+                            <h3><a href="https://pwafire.org/developer/codelabs/build-pwa-with-github-pages-and-firebase-hosting/"
+                                    target="_blank">How
                                     to build Progressive Web Apps and deploy to Firebase and GitHub Pages.</a></h3>
                             <p>In this Codelab, we are going to convert a basic static site into a Progressive Web App</p>
-                            <a href="https://pwafire.org/developer/codelabs/build-pwa-with-github-pages-and-firebase-hosting/" target="_blank"
-                                class="btn section-btn">Read article</a>
+                            <a href="https://pwafire.org/developer/codelabs/build-pwa-with-github-pages-and-firebase-hosting/"
+                                target="_blank" class="btn section-btn">Read article</a>
                         </div>
                     </div>
                 </div>
@@ -438,12 +432,13 @@
                     <div class="media blog-thumb">
                         <div class="media-body blog-info">
                             <small><i class="fa fa-clock-o"></i> Nov 5, 2018</small>
-                            <h3><a href="https://medium.com/@bolajiayodeji/how-to-convert-github-markdown-files-to-a-simple-website-b08602d05e1c" target="_blank">How
+                            <h3><a href="https://medium.com/@bolajiayodeji/how-to-convert-github-markdown-files-to-a-simple-website-b08602d05e1c"
+                                    target="_blank">How
                                     to convert GitHub Markdown files to a simple website</a></h3>
                             <p>This little guide demonstrate how to turn any Github repository with a bunch of Markdown
                                 files into a simple website using Github Pages and Jekyll.</p>
-                            <a href="https://medium.com/@bolajiayodeji/how-to-convert-github-markdown-files-to-a-simple-website-b08602d05e1c" target="_blank"
-                                class="btn section-btn">Read
+                            <a href="https://medium.com/@bolajiayodeji/how-to-convert-github-markdown-files-to-a-simple-website-b08602d05e1c"
+                                target="_blank" class="btn section-btn">Read
                                 article</a>
                         </div>
                     </div>
@@ -454,10 +449,12 @@
                     <div class="media blog-thumb">
                         <div class="media-body blog-info">
                             <small><i class="fa fa-clock-o"></i> May 2, 2018</small>
-                            <h3><a href="https://medium.com/@bolajiayodeji/the-new-features-of-html-5-2-8e4829df9b72" target="_blank">The
+                            <h3><a href="https://medium.com/@bolajiayodeji/the-new-features-of-html-5-2-8e4829df9b72"
+                                    target="_blank">The
                                     new features of HTML 5.2</a></h3>
                             <p>The newly released HTML 5.2, changes and new features.</p>
-                            <a href="https://medium.com/@bolajiayodeji/the-new-features-of-html-5-2-8e4829df9b72" target="_blank" class="btn section-btn">Read
+                            <a href="https://medium.com/@bolajiayodeji/the-new-features-of-html-5-2-8e4829df9b72"
+                                target="_blank" class="btn section-btn">Read
                                 Article</a>
                         </div>
                     </div>
