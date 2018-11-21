@@ -699,10 +699,10 @@ a:focus {
 
 #fade-quote-carousel .profile-circle {
     text-align: center;
-    width: 100px;
-    height: 100px;
+    width: 40%;
+    height: auto;
     margin: 0 auto;
-    border-radius: 100px;
+    border-radius: 50px;
 }
 
 /*---------------------------------------
