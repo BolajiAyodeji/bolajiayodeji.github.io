@@ -702,7 +702,10 @@ a:focus {
     width: 40%;
     height: auto;
     margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 100%;
+}
+.testi{
+    color: #2dce89;
 }
 
 /*---------------------------------------
