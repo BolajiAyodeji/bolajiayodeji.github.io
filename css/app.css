@@ -128,7 +128,7 @@ a:focus {
 }
 
 .section-btn {
-    background: #2dce89;
+    background: #24a46d;
     border: 0;
     border-radius: 8px;
     color: #ffffff;
@@ -142,7 +142,7 @@ a:focus {
 
 .section-btn:hover,
 .section-btn:focus {
-    background: #24a46d;
+    background: #2dce89;
     border-color: transparent;
     color: #ffffff;
 }
@@ -247,7 +247,7 @@ a:focus {
 }
 
 .custom-navbar .navbar-brand:hover {
-    background: #24a46d;
+    background: #2dce89;
 }
 
 .top-nav-collapse {
@@ -269,7 +269,7 @@ a:focus {
 }
 
 .custom-navbar .section-btn:hover {
-    background: #24a46d;
+    background: #2dce89;
 }
 
 .custom-navbar .section-btn a {
@@ -610,7 +610,7 @@ a:focus {
 }
 
 .link-btn {
-    background: #2dce89;
+    background: #24a46d;
     border: 0;
     border-radius: 12px;
     color: #FFFFFF;
@@ -624,7 +624,7 @@ a:focus {
 
 .link-btn:hover {
     color: #FFFFFF;
-    background: #24a46d;
+    background: #2dce89;
 }
 
 
