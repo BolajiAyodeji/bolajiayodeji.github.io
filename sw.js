@@ -23,7 +23,6 @@ self.addEventListener('fetch', function (event) {
                             '/js/app.js',
                             '/images/fav.png',
                             '/manifest.js',
-                            'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1',
                         ]);
                     })
                 );
