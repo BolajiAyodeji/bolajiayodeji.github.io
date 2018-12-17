@@ -172,15 +172,6 @@
             $('.scroll-to-top').fadeOut();
         }
     });
-
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-            navigator.serviceWorker.register('/sw.js')
-                .then(function () {
-                    console.log("Service Worker Registered");
-                });
-        });
-    }
     
 })(jQuery);
 

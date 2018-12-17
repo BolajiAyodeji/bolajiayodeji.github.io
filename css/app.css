@@ -156,7 +156,12 @@ a:focus {
     position: relative;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
-    background: #11cdef;
+    background: #2dce89;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2dce89, #11cdef);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2dce89, #11cdef);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     opacity: 0.6;
     position: absolute;
     width: 100%;
@@ -289,7 +294,7 @@ a:focus {
 .custom-navbar .nav li a {
     font-size: 14px;
     font-weight: 500;
-    color: #e9ecef;
+    color: #000;
     letter-spacing: -0.5px;
     padding-right: 22px;
     padding-left: 22px;
@@ -297,7 +302,7 @@ a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #000;
+    color: rgb(80, 76, 76);
 }
 
 .custom-navbar .navbar-nav>li>a:hover,
@@ -356,7 +361,7 @@ a:focus {
     position: relative;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
-    background: url('../images/header-image.jpg') no-repeat center center;
+    background: url('../images/header.jpg') no-repeat center center;
     background-size: cover;
     vertical-align: middle;
     display: -webkit-box;
@@ -1073,7 +1078,7 @@ footer span,
     left: 0;
     height: 3px;
     width: 100%;
-    background-color: #fff;
+    background-color: #000;
     transform-origin: 0 0;
 }
 

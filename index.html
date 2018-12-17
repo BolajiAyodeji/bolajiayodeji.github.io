@@ -849,6 +849,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/app.js"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('/sw.js')
+                .then(function () {
+                    console.log("Service Worker Registered");
+                });
+        });
+    }
+    </script>
 
 </body>
 
