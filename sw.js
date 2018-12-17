@@ -14,7 +14,7 @@ self.addEventListener('fetch', function (event) {
                 // rejected promise - just ignore it, we're offline!   
                 console.log("Error in fetch()", event);
                 event.waitUntil(
-                    caches.open('cache').then(function (cache) {ve
+                    caches.open('cache').then(function (cache) {
                         return cache.addAll([
                             '/index.html',
                             '/index.html?homescreen=1',
