@@ -24,6 +24,7 @@ self.addEventListener('fetch', function (event) {
                             '/images/fav.png',
                             '/manifest.js',
                             'https://platform.twitter.com/widgets.js',
+                            'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1',
                         ]);
                     })
                 );
