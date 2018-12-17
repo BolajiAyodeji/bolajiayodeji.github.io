@@ -1,47 +1,41 @@
-var dataCacheName = 'bolaji-ayodeji';
-var cacheName = 'bolaji-ayodeji';
-var filesToCache = [
-  '/',
-  "/fav.png",
-  "/index.html",
-  "/manifest.json",
-  "/js/app.js",
-  "/css/app.css",
-  "/css/bootstrap.min.css",
-  "/css/font-awesome.min.css",
-  "/https://platform.twitter.com/widgets.js",
-];
-
-self.addEventListener('install', function (e) {
-  console.log('[ServiceWorker] Install');
-  e.waitUntil(
-    caches.open(cacheName).then(function (cache) {
-      console.log('[ServiceWorker] Caching app shell');
-      return cache.addAll(filesToCache);
-    })
-  );
+self.addEventListener('fetch', function (event) {
+    event.respondWith(caches.open('cache').then(function (cache) {
+        return cache.match(event.request).then(function (response) {
+            console.log("cache request: " + event.request.url);
+            var fetchPromise = fetch(event.request).then(function (networkResponse) {
+                // if we got a response from the cache, update the cache                   
+                console.log("fetch completed: " + event.request.url, networkResponse);
+                if (networkResponse) {
+                    console.debug("updated cached page: " + event.request.url, networkResponse);
+                    cache.put(event.request, networkResponse.clone());
+                }
+                return networkResponse;
+            }, function (event) {
+                // rejected promise - just ignore it, we're offline!   
+                console.log("Error in fetch()", event);
+                event.waitUntil(
+                    caches.open('cache').then(function (cache) {ve
+                        return cache.addAll([
+                            '/index.html',
+                            '/index.html?homescreen=1',
+                            '/?homescreen=1',
+                            '/css/app.css',
+                            '/js/app.js',
+                            '/images/fav.png',
+                            '/manifest.js',
+                            'https://platform.twitter.com/widgets.js',
+                        ]);
+                    })
+                );
+            });
+            // respond from the cache, or the network
+            return response || fetchPromise;
+        });
+    }));
 });
 
-self.addEventListener('activate', function (e) {
-  console.log('[ServiceWorker] Activate');
-  e.waitUntil(
-    caches.keys().then(function (keyList) {
-      return Promise.all(keyList.map(function (key) {
-        if (key !== cacheName && key !== dataCacheName) {
-          console.log('[ServiceWorker] Removing old cache', key);
-          return caches.delete(key);
-        }
-      }));
-    })
-  );
-  return self.clients.claim();
-});
-
-self.addEventListener('fetch', function (e) {
-  console.log('[Service Worker] Fetch', e.request.url);
-  e.respondWith(
-    caches.match(e.request).then(function (response) {
-      return response || fetch(e.request);
-    })
-  );
+self.addEventListener('install', function (event) {
+    // The promise that skipWaiting() returns can be safely ignored.
+    self.skipWaiting();
+    console.log("Latest version installed!");
 });
