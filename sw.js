@@ -3,7 +3,6 @@ var cacheName = 'bolaji-ayodeji';
 var filesToCache = [
   '/',
   "/fav.png",
-  "/images",
   "/index.html",
   "/manifest.json",
   "/js/app.js",
