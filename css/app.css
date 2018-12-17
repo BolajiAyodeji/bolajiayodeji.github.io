@@ -294,7 +294,7 @@ a:focus {
 .custom-navbar .nav li a {
     font-size: 14px;
     font-weight: 500;
-    color: #000;
+    color: #191919;
     letter-spacing: -0.5px;
     padding-right: 22px;
     padding-left: 22px;
@@ -302,7 +302,7 @@ a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: rgb(80, 76, 76);
+    color: #000;
 }
 
 .custom-navbar .navbar-nav>li>a:hover,
@@ -399,7 +399,7 @@ a:focus {
 .home-info span {
     display: inline-block;
     vertical-align: middle;
-    color: #f9f9f9;
+    color: #191919;
     font-weight: 500;
     margin-left: 20px;
 }
