@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -142,12 +142,7 @@ a:focus {
 
 .section-btn:hover,
 .section-btn:focus {
-    background: #2dce89;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2dce89, #11cdef);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2dce89, #11cdef);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #24a46d;
     border-color: transparent;
     color: #ffffff;
 }
@@ -252,12 +247,7 @@ a:focus {
 }
 
 .custom-navbar .navbar-brand:hover {
-    background: #2dce89;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2dce89, #11cdef);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2dce89, #11cdef);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #24a46d;
 }
 
 .top-nav-collapse {
@@ -279,12 +269,7 @@ a:focus {
 }
 
 .custom-navbar .section-btn:hover {
-    background: #2dce89;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2dce89, #11cdef);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2dce89, #11cdef);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #24a46d;
 }
 
 .custom-navbar .section-btn a {
@@ -391,7 +376,7 @@ a:focus {
 
 .home-info .section-btn:hover,
 .home-info .section-btn:focus {
-    background: #2dce89;
+    background: #24a46d;
     border-color: transparent;
     color: #FFFFFF;
 }
@@ -610,12 +595,7 @@ a:focus {
 }
 
 .blog-info .section-btn:hover {
-    background: #2dce89;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2dce89, #11cdef);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2dce89, #11cdef);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #24a46d;
     color: #FFFFFF;
 }
 
@@ -644,12 +624,7 @@ a:focus {
 
 .link-btn:hover {
     color: #FFFFFF;
-    background: #2dce89;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2dce89, #11cdef);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2dce89, #11cdef);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #24a46d;
 }
 
 
@@ -1051,8 +1026,6 @@ footer span,
         bottom: 6em;
     }
 }
-
-.twitter-feed {}
 
 .ml1 {
     font-weight: 900;
