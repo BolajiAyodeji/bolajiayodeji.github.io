@@ -1,3 +1,1 @@
-# Personal Portfolio Website :thunder:
-
-:rocket::rocket::rocket:
+# Personal Portfolio Website :high-voltage:
