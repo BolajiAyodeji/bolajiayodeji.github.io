@@ -247,7 +247,7 @@ a:focus {
 }
 
 .custom-navbar .navbar-brand:hover {
-    background: #2dce89;
+    background: #fff;
 }
 
 .top-nav-collapse {
@@ -255,7 +255,7 @@ a:focus {
 }
 
 .custom-navbar .navbar-nav.navbar-nav-first {
-    margin-left: 8em;
+    margin-left: 10em;
 }
 
 .custom-navbar .navbar-nav.navbar-right li a {
