@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,600');
 @import url("../css/hover-min.css");
 @import url("../css/bootstrap.min.css");
 @import url("../css/magnific-popup.css");
@@ -6,7 +6,7 @@
 @import url("../assets/nucleo/css/nucleo.css");
 body {
     background: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     overflow-x: hidden;
 }
 
