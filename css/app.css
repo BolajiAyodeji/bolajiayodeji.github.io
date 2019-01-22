@@ -11,7 +11,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 0.9em;
+    width: 10px;
 }
 
 body::-webkit-scrollbar-track {
@@ -19,8 +19,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #c0c0c0;
-    outline: 1px solid #11cdef;
+    background-color: #63D1F4;
     border-radius: 10px;
 }
 
@@ -153,9 +152,9 @@ a:focus {
     border-bottom-right-radius: 50% 20%;
     background: #2dce89;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2dce89, #11cdef);
+    background: -webkit-linear-gradient(to right, #2dce89, #63D1F4);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2dce89, #11cdef);
+    background: linear-gradient(to right, #2dce89, #63D1F4);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     opacity: 0.7;
     position: absolute;
@@ -704,9 +703,9 @@ a:focus {
 #contact {
     background: #2dce89;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2dce89, #11cdef);
+    background: -webkit-linear-gradient(to right, #2dce89, #63D1F4);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2dce89, #11cdef);
+    background: linear-gradient(to right, #2dce89, #63D1F4);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -740,7 +739,7 @@ a:focus {
 }
 
 #contact .form-control:focus {
-    box-shadow: 0 0 0 3.0px #11cdef;
+    box-shadow: 0 0 0 3.0px #63D1F4;
 }
 
 #contact input,
@@ -762,7 +761,7 @@ a:focus {
 
 #contact input[type='submit']:hover {
     box-shadow: inset 0 0 0 2px #e9ecef;
-    background: linear-gradient(to left, #2dce89, #11cdef);
+    background: linear-gradient(to left, #2dce89, #63D1F4);
     color: #000;
 }
 
@@ -776,7 +775,7 @@ a:focus {
 
 #contact input[type='reset']:hover {
     box-shadow: inset 0 0 0 2px #e9ecef;
-    background: linear-gradient(to left, #2dce89, #11cdef);
+    background: linear-gradient(to left, #2dce89, #63D1F4);
     color: #000;
 }
 
