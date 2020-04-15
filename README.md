@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# Hello World!
 
-You can use the [editor on GitHub](https://github.com/BolajiAyodeji/bolajiayodeji.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I'm a Front-end Developer and Technical Writer who currently works in Developer Relations at [Hashnode](https://hashnode.com). I'm passionate about communities, documentation, web VR experiences, developing JAMstack + PWA applications with a significant focus on accessibility alongside supporting and sustaining FOSS.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I create technical content on my [Blog](https://bolajiayodeji.com) && [YouTube](https://www.youtube.com/c/bolajiayodeji), [speak](https://bolajiayodeji.com/talks) at a couple of technical events and organize several events && programs for my [local community](https://facebook.com/groups/devclokoja/).
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BolajiAyodeji/bolajiayodeji.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![](https://media.giphy.com/media/ZVik7pBtu9dNS/source.gif)
