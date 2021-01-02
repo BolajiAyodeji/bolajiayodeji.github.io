@@ -1,7 +1,5 @@
-# Hello World!
+# Hi 👋🏾
 
-I'm a Front-end Developer and Technical Writer who currently works in Developer Relations at [Hashnode](https://hashnode.com). I'm passionate about communities, documentation, web VR experiences, developing JAMstack + PWA applications with a significant focus on accessibility alongside supporting and sustaining FOSS.
-
-I create technical content on my [Blog](https://bolajiayodeji.com) && [YouTube](https://www.youtube.com/c/bolajiayodeji), [speak](https://bolajiayodeji.com/talks) at a couple of technical events and organize several events && programs for my [local community](https://facebook.com/groups/devclokoja/).
+I'm a JAMstack Developer and Content Creator who currently works as a Developer Advocate at [Commerce Layer](https://commercelayer.io). I'm passionate about sharing knowledge, documentation, web engineering, JAMstack, communities, and FOSS. I create technical content on my [Blog](https://blog.bolajiayodeji) && [YouTube](https://www.youtube.com/c/bolajiayodeji), speak at some conferences/meetups and build technical communities.
 
 ![](https://media.giphy.com/media/ZVik7pBtu9dNS/source.gif)
